@@ -197,7 +197,7 @@ var cf_worker_vless_default = {
     async fetch(request, env, ctx) {
         let address = "";
         let portWithRandomLog = "";
-        const userID = env.UUID || "7f14e42a-f453-4c39-a762-019ee493237d";
+        const userID = env.UUID || "1ce21887-7288-4fca-a005-55b0a5c8a7c0";
         const isVaildUUID = validate_default(userID);
         const log = (info, event) => {
             console.log(`[${address}:${portWithRandomLog}] ${info}`, event || "");
